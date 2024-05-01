@@ -28,7 +28,7 @@ public class Main {
         //validating the radio button
         driver.findElement(By.id("radio_program_medicaid")).click();
 
-        //validation of date picker
+        //validation of date picker i have used the date July 2024 to selectS
         driver.findElement(By.id("txt_visit_date")).click();
         String currentDate = driver.findElement(By.className("datepicker-switch")).getText();
 
